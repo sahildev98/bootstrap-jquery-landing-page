@@ -11,6 +11,10 @@
   color: var(--primary-color) !important;
 }
 
+.banner{
+  padding-bottom: 10vh;
+}
+
 .banner img{
   width: 1000px;
   height:350px;
