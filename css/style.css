@@ -14,6 +14,12 @@
 
 
 
+
 .products-row1{
-  padding-left: 94px;
+  padding-right: 50px;
+}
+
+.products-row1 img{
+  height: 280px;
+  width:320px;
 }
