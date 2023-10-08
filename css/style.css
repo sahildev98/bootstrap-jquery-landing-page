@@ -3,6 +3,10 @@
   margin: 1px;
 }
 
+.navbar-brand {
+  color: #7fff00;
+}
+
 .products-row1 {
   padding-right: 50px;
 }
