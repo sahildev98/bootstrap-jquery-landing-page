@@ -11,6 +11,11 @@
   color: var(--primary-color) !important;
 }
 
+.banner img{
+  width: 900px;
+  height:350px;
+}
+
 .products-row1 {
   padding-right: 50px;
 }
