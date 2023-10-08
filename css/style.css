@@ -8,7 +8,7 @@
 }
 
 .navbar-brand {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 .products-row1 {
