@@ -8,17 +8,10 @@ body{
 
 .mx-auto {
   padding-right: 10rem;
-  margin: 1px;
 }
 
 .navbar-brand {
   color: var(--primary-color);
-}
-
-.nav-link{
-  display: inline;
-  line-height: 66px;
-  
 }
 
 .banner{
