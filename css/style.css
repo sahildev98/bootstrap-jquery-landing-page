@@ -24,7 +24,7 @@ body{
   height:450px;
 }
 
-.banner button:hover, button:focus{
+ button:hover, button:focus{
   color: var(--primary-color);
   background-color: black;
   outline: 0;
