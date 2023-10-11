@@ -24,7 +24,16 @@ body{
   height:450px;
 }
 
- button:hover, button:focus{
+/* TODO: Fix button issue  */
+
+ .banner button:hover, button:focus{
+  color: var(--primary-color);
+  background-color: black;
+  outline: 0;
+  border: #7fff00 2px solid;
+}
+
+.products-row1 button:hover, button:focus{
   color: var(--primary-color);
   background-color: black;
   outline: 0;
