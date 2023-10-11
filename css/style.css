@@ -48,3 +48,12 @@ body{
 .products-row1 button{
   height: 35px;
 }
+
+footer li  {
+  list-style: none;
+}
+
+footer a{
+  text-decoration: none;
+}
+
