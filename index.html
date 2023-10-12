@@ -33,6 +33,10 @@
 
 <body>
   <header>
+    <!-- Navbar using a range of boostrap classes
+    navbar brand for logo name
+    navbar-toggler for hamburger menu 
+    nav-item and nav-link for focus links and in built styling from Sass files --->
     <nav class="navbar navbar-expand-sm bg-dark">
       <!-- TODO: Fix the closing nav button issue -->
       <h1 class="navbar-brand fs-1">SA Fitness</h1>
@@ -56,21 +60,26 @@
     </nav>
   </header>
   <main>
+    <!-- Banner section -->
     <section class="banner d-flex justify-content-center align-items-center mt-5">
       <img src="img/dumbbells_banner.jpg" alt="" />
       <button>Winter Sale</button>
     </section>
 
+    <!-- products section grid system applied -->
     <section class="container text-center">
       <section class="products-row1 row align-items-center">
+
         <section class="col-md-8 col-lg-4">
           <img src="img/cardio_bikes.jpg" alt="" />
           <button class="mt-3">Shop cardio</button>
         </section>
+
         <section class="col-md-8 col-lg-4">
           <img src="img/weights_rack.jpg" alt="" />
           <button class="mt-3">Shop Strength Equipment</button>
         </section>
+
         <section class="col-md-8 col-lg-4">
           <img src="img/gym_accessories.jpg" alt="" />
           <button class="mt-3">Shop Accessories</button>
@@ -78,6 +87,8 @@
       </section>
     </section>
   </main>
+
+  <!-- Footer section -->
   <footer class="text-light bg-dark">
     <ul class=" d-flex justify-content-center pt-5">
       <li class="px-2"><a class="nav-link" href="#">Customer Information</li></a>

@@ -1,8 +1,4 @@
-/* * {
-    outline: solid 1px red;
-} */
-
-
+/* root colours applied for colour scheme of website */
 :root{
   --primary-color: #7fff00;
 }
@@ -11,10 +7,14 @@ body{
   font-family: 'Montserrat', sans-serif !important;
 }
 
+/* Nav section */
+
 
 .navbar-brand {
   color: var(--primary-color);
 }
+
+/* Banner section */
 
 .banner{
   padding-bottom: 10vh;
@@ -26,7 +26,8 @@ body{
   height:450px;
 }
 
-/* TODO: Fix button issue  */
+/* TODO: Need to fix styling issue with navbar button issue  */
+
 
  .banner button:hover, button:focus{
   color: var(--primary-color);
@@ -35,6 +36,7 @@ body{
   border: #7fff00 2px solid;
 }
 
+/* Products section */
 .products-row1 button:hover, button:focus{
   color: var(--primary-color);
   background-color: black;
@@ -59,6 +61,8 @@ body{
 .products-row1 button{
   height: 35px;
 }
+
+/* Footer section */
 
 footer li  {
   list-style: none;
